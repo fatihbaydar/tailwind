@@ -1,7 +1,10 @@
+import Typography from "./components/Typography";
+
 function App() {
   return (
     <div className="App">
-      <h1>Cohort 17</h1>
+      <h1 className="text-2xl text-center text-purple-500 font-bold mt-2">Tailwind</h1>
+      <Typography/>
     </div>
   );
 }
